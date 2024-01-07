@@ -1,3 +1,7 @@
+Blog Website 2
+-----------------------------------------------------------------------
+This is another blog website I made after my first attempt. This one uses NextJS 14 Server actions, app router, MERN stack, Authentication, Sign in/out, and a responsive design. It even has a custom loading, not found, and error pages. This project uses Module CSS instead of Tailwind CSS.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
