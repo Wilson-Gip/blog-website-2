@@ -6,12 +6,14 @@ import ClientSideProviderTest from "@/components/clientSideProviderTest";
 
 const inter = Inter({ subsets: ["latin"] });
 
+//metadata is used for seo optimization
 export const metadata = {
   title: {
-    default:"Next.js 14 Homepage",
+    default:"Next.js 14 App Blog Homepage",
+    //templates allow u to duplicate the next js part for all metadatas
     template:"%s | Next.js 14"
   },
-  description: "Next.js starter app description",
+  description: "Next.js blog api app",
 };
 
 export default function RootLayout({ children }) {
