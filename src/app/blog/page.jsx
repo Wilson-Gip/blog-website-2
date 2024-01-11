@@ -4,9 +4,7 @@ import { getPosts } from "@/lib/data";
 
 // FETCH DATA WITH AN API
 const getData = async () => {
-  //use cache
-  // const res = await fetch("http://localhost:3000/api/blog", {next:{revalidate:3600}});
-  const res = await fetch("http://jsonplaceholder.typicode.com/posts");
+  const res = await fetch("http://localhost:3000/api/blog", {next:{revalidate:3600}});
 
   if (!res.ok) {
     throw new Error("Something went wrong");
